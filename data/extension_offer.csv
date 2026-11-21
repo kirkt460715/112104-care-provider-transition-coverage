@@ -1,0 +1,5 @@
+offer,provider,scope,from,to,shared_group,max_uses,confirm_until
+L1,A,X01|X03|X07,2026-10-01,2026-10-09,A-bath,2,2026-09-30
+L2,A,X04,2026-10-01,2026-10-12,A-escort,1,2026-09-30
+L3,A,X06|X10,2026-10-01,2026-10-07,A-clean,1,2026-09-29
+L4,B,X02|X05|X08,2026-10-04,2026-10-15,B-stairs,2,2026-10-03

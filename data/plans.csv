@@ -1,0 +1,11 @@
+scope,household,care,group,old_provider,max_gap,substitute,sub_days,condition
+X01,H01,bath,P1,A,8,wipe,7,楼梯协助
+X02,H01,stairs,P1,B,8,,0,楼梯协助
+X03,H02,bath,,A,8,wipe,5,单项陪同
+X04,H03,escort,P2,A,12,,0,需要乐龄车
+X05,H03,stairs,P2,B,12,,0,需要乐龄车
+X06,H04,clean,,A,14,,0,基础
+X07,H05,bath,,A,9,wipe,7,单项陪同
+X08,H06,stairs,,B,9,,0,楼梯协助
+X09,H07,escort,,B,13,,0,需要乐龄车
+X10,H08,clean,,A,16,,0,基础

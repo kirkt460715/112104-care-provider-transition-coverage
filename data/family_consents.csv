@@ -1,0 +1,14 @@
+scope,provider,kind,from,to,status,recorded
+X01,C,regular,2026-10-02,2026-12-01,approved,2026-09-26
+X02,C,regular,2026-10-02,2026-12-01,approved,2026-09-26
+X01,E,bridge,2026-10-01,2026-10-09,approved,2026-09-27
+X03,D,regular,2026-10-02,2026-11-01,approved,2026-09-26
+X07,D,regular,2026-10-02,2026-11-01,pending,2026-09-26
+X07,D,regular,2026-10-02,2026-11-01,approved,2026-10-06
+X07,E,bridge,2026-10-01,2026-10-09,approved,2026-09-26
+X04,D,regular,2026-10-06,2026-12-01,approved,2026-09-26
+X05,D,regular,2026-10-06,2026-12-01,approved,2026-09-26
+X09,D,regular,2026-10-06,2026-12-01,approved,2026-09-26
+X06,E,regular,2026-10-01,2026-12-01,approved,2026-09-26
+X10,E,regular,2026-10-01,2026-12-01,approved,2026-09-26
+X08,C,regular,2026-10-02,2026-12-01,approved,2026-09-26

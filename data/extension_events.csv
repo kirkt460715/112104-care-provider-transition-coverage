@@ -1,0 +1,7 @@
+event,offer,scope,kind,effective,recorded
+K01,L1,X01,reserve,2026-10-01,2026-09-30
+K02,L1,X03,reserve,2026-10-01,2026-09-30
+K03,L4,X02,reserve,2026-10-04,2026-10-03
+K04,L4,X08,reserve,2026-10-04,2026-10-03
+K05,L3,X06,reserve,2026-10-01,2026-09-29
+K06,L3,X06,release,2026-10-04,2026-10-04
