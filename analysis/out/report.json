@@ -1,0 +1,1180 @@
+{
+  "as_of": "2026-10-04",
+  "decisions": [
+    {
+      "scope": "X01",
+      "household": "H01",
+      "care": "bath",
+      "group": "P1",
+      "condition": "楼梯协助",
+      "continuity": {
+        "scope": "X01",
+        "max_gap": 8,
+        "last_countable_day": "2026-10-04",
+        "need_by": "2026-10-12",
+        "historical_gaps": [
+          5,
+          1,
+          6,
+          0,
+          6,
+          1,
+          5,
+          2,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          14,
+          6,
+          5
+        ],
+        "historical_breaches": [
+          14
+        ],
+        "substitute_covered_gaps": [
+          7,
+          14
+        ],
+        "substitute_over_sub_days": [
+          14
+        ],
+        "unverified_not_counted": [
+          "2026-07-01",
+          "2026-09-16"
+        ],
+        "countable_visits": 18
+      },
+      "earliest_gap_day": "2026-10-13",
+      "candidate_paths": [
+        {
+          "provider": "C",
+          "consent": {
+            "status": "approved",
+            "from": "2026-10-02",
+            "to": "2026-12-01",
+            "recorded": "2026-09-26"
+          },
+          "earliest_regular_slot": "2026-10-03",
+          "meets_need_by": true,
+          "comparable_trial_n": 3,
+          "trial_gap_max": 6,
+          "noncomparable_or_unverified": [
+            "Q00",
+            "Q04",
+            "Q60",
+            "Q61",
+            "Q62",
+            "Q63",
+            "Q64"
+          ],
+          "bridge_slots": [],
+          "regular_slots": [
+            "T01",
+            "T04"
+          ],
+          "timely_slots": [
+            "T01",
+            "T04"
+          ],
+          "slots_voided_by_missed": []
+        },
+        {
+          "provider": "E",
+          "consent": null,
+          "earliest_regular_slot": null,
+          "meets_need_by": false,
+          "comparable_trial_n": 0,
+          "trial_gap_max": null,
+          "noncomparable_or_unverified": [
+            "Q20",
+            "Q21",
+            "Q22",
+            "Q23",
+            "Q24"
+          ],
+          "bridge_slots": [
+            "T09",
+            "T12"
+          ],
+          "regular_slots": [],
+          "timely_slots": [],
+          "slots_voided_by_missed": []
+        }
+      ],
+      "extension_backstop": {
+        "offer": "L1",
+        "from": "2026-10-01",
+        "to": "2026-10-09",
+        "confirm_until": "2026-09-30"
+      },
+      "backstop_covers_need_by": false,
+      "handover_proofs": [
+        "confirmed",
+        "ready",
+        "served"
+      ],
+      "missed_events": [],
+      "valid_served_recorded": true,
+      "grouped": true
+    },
+    {
+      "scope": "X02",
+      "household": "H01",
+      "care": "stairs",
+      "group": "P1",
+      "condition": "楼梯协助",
+      "continuity": {
+        "scope": "X02",
+        "max_gap": 8,
+        "last_countable_day": "2026-09-29",
+        "need_by": "2026-10-07",
+        "historical_gaps": [
+          1,
+          6,
+          1,
+          6,
+          1,
+          6,
+          1,
+          6,
+          7,
+          7,
+          7,
+          7,
+          7,
+          14,
+          7,
+          5
+        ],
+        "historical_breaches": [
+          14
+        ],
+        "substitute_covered_gaps": [],
+        "substitute_over_sub_days": [],
+        "unverified_not_counted": [
+          "2026-09-10",
+          "2026-07-31"
+        ],
+        "countable_visits": 17
+      },
+      "earliest_gap_day": "2026-10-08",
+      "candidate_paths": [
+        {
+          "provider": "C",
+          "consent": {
+            "status": "approved",
+            "from": "2026-10-02",
+            "to": "2026-12-01",
+            "recorded": "2026-09-26"
+          },
+          "earliest_regular_slot": "2026-10-03",
+          "meets_need_by": true,
+          "comparable_trial_n": 0,
+          "trial_gap_max": null,
+          "noncomparable_or_unverified": [],
+          "bridge_slots": [],
+          "regular_slots": [
+            "T02"
+          ],
+          "timely_slots": [
+            "T02"
+          ],
+          "slots_voided_by_missed": [
+            "T03"
+          ]
+        }
+      ],
+      "extension_backstop": {
+        "offer": "L4",
+        "from": "2026-10-04",
+        "to": "2026-10-15",
+        "confirm_until": "2026-10-03"
+      },
+      "backstop_covers_need_by": true,
+      "handover_proofs": [
+        "confirmed",
+        "missed",
+        "ready",
+        "served"
+      ],
+      "missed_events": [
+        {
+          "event": "H5",
+          "provider": "C",
+          "effective": "2026-10-04"
+        }
+      ],
+      "valid_served_recorded": false,
+      "grouped": true
+    },
+    {
+      "scope": "X03",
+      "household": "H02",
+      "care": "bath",
+      "group": null,
+      "condition": "单项陪同",
+      "continuity": {
+        "scope": "X03",
+        "max_gap": 8,
+        "last_countable_day": "2026-09-25",
+        "need_by": "2026-10-03",
+        "historical_gaps": [
+          0,
+          7,
+          1,
+          6,
+          2,
+          5,
+          3,
+          4,
+          4,
+          3,
+          7,
+          7,
+          7,
+          14,
+          7,
+          7
+        ],
+        "historical_breaches": [
+          14
+        ],
+        "substitute_covered_gaps": [
+          14,
+          7
+        ],
+        "substitute_over_sub_days": [
+          14,
+          7
+        ],
+        "unverified_not_counted": [
+          "2026-09-04"
+        ],
+        "countable_visits": 17
+      },
+      "earliest_gap_day": "2026-10-04",
+      "candidate_paths": [
+        {
+          "provider": "D",
+          "consent": {
+            "status": "approved",
+            "from": "2026-10-02",
+            "to": "2026-11-01",
+            "recorded": "2026-09-26"
+          },
+          "earliest_regular_slot": "2026-10-03",
+          "meets_need_by": true,
+          "comparable_trial_n": 0,
+          "trial_gap_max": null,
+          "noncomparable_or_unverified": [],
+          "bridge_slots": [],
+          "regular_slots": [
+            "T05"
+          ],
+          "timely_slots": [
+            "T05"
+          ],
+          "slots_voided_by_missed": []
+        }
+      ],
+      "extension_backstop": {
+        "offer": "L1",
+        "from": "2026-10-01",
+        "to": "2026-10-09",
+        "confirm_until": "2026-09-30"
+      },
+      "backstop_covers_need_by": true,
+      "handover_proofs": [],
+      "missed_events": [],
+      "valid_served_recorded": false,
+      "grouped": false
+    },
+    {
+      "scope": "X04",
+      "household": "H03",
+      "care": "escort",
+      "group": "P2",
+      "condition": "需要乐龄车",
+      "continuity": {
+        "scope": "X04",
+        "max_gap": 12,
+        "last_countable_day": "2026-09-27",
+        "need_by": "2026-10-09",
+        "historical_gaps": [
+          1,
+          7,
+          1,
+          6,
+          3,
+          4,
+          5,
+          2,
+          7,
+          7,
+          7,
+          14,
+          7,
+          7,
+          7,
+          1
+        ],
+        "historical_breaches": [
+          14
+        ],
+        "substitute_covered_gaps": [],
+        "substitute_over_sub_days": [],
+        "unverified_not_counted": [
+          "2026-08-29",
+          "2026-08-08"
+        ],
+        "countable_visits": 17
+      },
+      "earliest_gap_day": "2026-10-10",
+      "candidate_paths": [
+        {
+          "provider": "D",
+          "consent": {
+            "status": "approved",
+            "from": "2026-10-06",
+            "to": "2026-12-01",
+            "recorded": "2026-09-26"
+          },
+          "earliest_regular_slot": "2026-10-10",
+          "meets_need_by": false,
+          "comparable_trial_n": 0,
+          "trial_gap_max": null,
+          "noncomparable_or_unverified": [],
+          "bridge_slots": [],
+          "regular_slots": [
+            "T06",
+            "T13"
+          ],
+          "timely_slots": [],
+          "slots_voided_by_missed": []
+        }
+      ],
+      "extension_backstop": null,
+      "backstop_covers_need_by": false,
+      "handover_proofs": [
+        "served"
+      ],
+      "missed_events": [],
+      "valid_served_recorded": false,
+      "grouped": true
+    },
+    {
+      "scope": "X05",
+      "household": "H03",
+      "care": "stairs",
+      "group": "P2",
+      "condition": "需要乐龄车",
+      "continuity": {
+        "scope": "X05",
+        "max_gap": 12,
+        "last_countable_day": "2026-09-23",
+        "need_by": "2026-10-05",
+        "historical_gaps": [
+          2,
+          5,
+          1,
+          6,
+          0,
+          6,
+          1,
+          5,
+          2,
+          7,
+          7,
+          14,
+          7,
+          7,
+          7,
+          7
+        ],
+        "historical_breaches": [
+          14
+        ],
+        "substitute_covered_gaps": [],
+        "substitute_over_sub_days": [],
+        "unverified_not_counted": [
+          "2026-08-19"
+        ],
+        "countable_visits": 17
+      },
+      "earliest_gap_day": "2026-10-06",
+      "candidate_paths": [
+        {
+          "provider": "D",
+          "consent": {
+            "status": "approved",
+            "from": "2026-10-06",
+            "to": "2026-12-01",
+            "recorded": "2026-09-26"
+          },
+          "earliest_regular_slot": "2026-10-10",
+          "meets_need_by": false,
+          "comparable_trial_n": 3,
+          "trial_gap_max": 6,
+          "noncomparable_or_unverified": [
+            "Q10",
+            "Q11",
+            "Q12",
+            "Q13",
+            "Q40",
+            "Q44",
+            "Q70",
+            "Q71",
+            "Q72",
+            "Q73",
+            "Q14",
+            "Q74"
+          ],
+          "bridge_slots": [],
+          "regular_slots": [
+            "T07",
+            "T14"
+          ],
+          "timely_slots": [],
+          "slots_voided_by_missed": []
+        }
+      ],
+      "extension_backstop": null,
+      "backstop_covers_need_by": false,
+      "handover_proofs": [],
+      "missed_events": [],
+      "valid_served_recorded": false,
+      "grouped": true
+    },
+    {
+      "scope": "X06",
+      "household": "H04",
+      "care": "clean",
+      "group": null,
+      "condition": "基础",
+      "continuity": {
+        "scope": "X06",
+        "max_gap": 14,
+        "last_countable_day": "2026-10-03",
+        "need_by": "2026-10-17",
+        "historical_gaps": [
+          1,
+          6,
+          1,
+          6,
+          1,
+          6,
+          1,
+          6,
+          7,
+          14,
+          7,
+          7,
+          7,
+          7,
+          7,
+          9
+        ],
+        "historical_breaches": [],
+        "substitute_covered_gaps": [],
+        "substitute_over_sub_days": [],
+        "unverified_not_counted": [
+          "2026-08-13",
+          "2026-07-31"
+        ],
+        "countable_visits": 17
+      },
+      "earliest_gap_day": "2026-10-18",
+      "candidate_paths": [
+        {
+          "provider": "E",
+          "consent": {
+            "status": "approved",
+            "from": "2026-10-01",
+            "to": "2026-12-01",
+            "recorded": "2026-09-26"
+          },
+          "earliest_regular_slot": "2026-10-03",
+          "meets_need_by": true,
+          "comparable_trial_n": 4,
+          "trial_gap_max": 7,
+          "noncomparable_or_unverified": [
+            "Q54"
+          ],
+          "bridge_slots": [],
+          "regular_slots": [
+            "T08",
+            "T11"
+          ],
+          "timely_slots": [
+            "T08",
+            "T11"
+          ],
+          "slots_voided_by_missed": []
+        }
+      ],
+      "extension_backstop": null,
+      "backstop_covers_need_by": false,
+      "handover_proofs": [
+        "confirmed",
+        "ready",
+        "served"
+      ],
+      "missed_events": [],
+      "valid_served_recorded": true,
+      "grouped": false
+    },
+    {
+      "scope": "X07",
+      "household": "H05",
+      "care": "bath",
+      "group": null,
+      "condition": "单项陪同",
+      "continuity": {
+        "scope": "X07",
+        "max_gap": 9,
+        "last_countable_day": "2026-09-28",
+        "need_by": "2026-10-07",
+        "historical_gaps": [
+          0,
+          7,
+          1,
+          6,
+          2,
+          5,
+          3,
+          4,
+          4,
+          10,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          3
+        ],
+        "historical_breaches": [
+          10
+        ],
+        "substitute_covered_gaps": [
+          7,
+          7
+        ],
+        "substitute_over_sub_days": [],
+        "unverified_not_counted": [
+          "2026-08-07"
+        ],
+        "countable_visits": 18
+      },
+      "earliest_gap_day": "2026-10-08",
+      "candidate_paths": [
+        {
+          "provider": "D",
+          "consent": {
+            "status": "approved",
+            "from": "2026-10-02",
+            "to": "2026-11-01",
+            "recorded": "2026-10-06"
+          },
+          "earliest_regular_slot": null,
+          "meets_need_by": false,
+          "comparable_trial_n": 0,
+          "trial_gap_max": null,
+          "noncomparable_or_unverified": [],
+          "bridge_slots": [],
+          "regular_slots": [],
+          "timely_slots": [],
+          "slots_voided_by_missed": []
+        },
+        {
+          "provider": "E",
+          "consent": null,
+          "earliest_regular_slot": null,
+          "meets_need_by": false,
+          "comparable_trial_n": 4,
+          "trial_gap_max": 16,
+          "noncomparable_or_unverified": [
+            "Q22"
+          ],
+          "bridge_slots": [
+            "T09",
+            "T12"
+          ],
+          "regular_slots": [],
+          "timely_slots": [],
+          "slots_voided_by_missed": []
+        }
+      ],
+      "extension_backstop": null,
+      "backstop_covers_need_by": false,
+      "handover_proofs": [
+        "served"
+      ],
+      "missed_events": [],
+      "valid_served_recorded": false,
+      "grouped": false
+    },
+    {
+      "scope": "X08",
+      "household": "H06",
+      "care": "stairs",
+      "group": null,
+      "condition": "楼梯协助",
+      "continuity": {
+        "scope": "X08",
+        "max_gap": 9,
+        "last_countable_day": "2026-09-26",
+        "need_by": "2026-10-05",
+        "historical_gaps": [
+          1,
+          7,
+          1,
+          6,
+          3,
+          4,
+          5,
+          9,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "historical_breaches": [],
+        "substitute_covered_gaps": [],
+        "substitute_over_sub_days": [],
+        "unverified_not_counted": [
+          "2026-08-01",
+          "2026-08-08"
+        ],
+        "countable_visits": 16
+      },
+      "earliest_gap_day": "2026-10-06",
+      "candidate_paths": [
+        {
+          "provider": "C",
+          "consent": {
+            "status": "approved",
+            "from": "2026-10-02",
+            "to": "2026-12-01",
+            "recorded": "2026-09-26"
+          },
+          "earliest_regular_slot": "2026-10-06",
+          "meets_need_by": false,
+          "comparable_trial_n": 0,
+          "trial_gap_max": null,
+          "noncomparable_or_unverified": [],
+          "bridge_slots": [],
+          "regular_slots": [
+            "T10"
+          ],
+          "timely_slots": [],
+          "slots_voided_by_missed": []
+        }
+      ],
+      "extension_backstop": {
+        "offer": "L4",
+        "from": "2026-10-04",
+        "to": "2026-10-15",
+        "confirm_until": "2026-10-03"
+      },
+      "backstop_covers_need_by": true,
+      "handover_proofs": [],
+      "missed_events": [],
+      "valid_served_recorded": false,
+      "grouped": false
+    },
+    {
+      "scope": "X09",
+      "household": "H07",
+      "care": "escort",
+      "group": null,
+      "condition": "需要乐龄车",
+      "continuity": {
+        "scope": "X09",
+        "max_gap": 13,
+        "last_countable_day": "2026-09-23",
+        "need_by": "2026-10-06",
+        "historical_gaps": [
+          2,
+          5,
+          1,
+          6,
+          0,
+          6,
+          6,
+          2,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "historical_breaches": [],
+        "substitute_covered_gaps": [],
+        "substitute_over_sub_days": [],
+        "unverified_not_counted": [
+          "2026-07-22"
+        ],
+        "countable_visits": 17
+      },
+      "earliest_gap_day": "2026-10-07",
+      "candidate_paths": [
+        {
+          "provider": "D",
+          "consent": {
+            "status": "approved",
+            "from": "2026-10-06",
+            "to": "2026-12-01",
+            "recorded": "2026-09-26"
+          },
+          "earliest_regular_slot": "2026-10-10",
+          "meets_need_by": false,
+          "comparable_trial_n": 0,
+          "trial_gap_max": null,
+          "noncomparable_or_unverified": [],
+          "bridge_slots": [],
+          "regular_slots": [
+            "T06",
+            "T13"
+          ],
+          "timely_slots": [],
+          "slots_voided_by_missed": []
+        }
+      ],
+      "extension_backstop": null,
+      "backstop_covers_need_by": false,
+      "handover_proofs": [],
+      "missed_events": [],
+      "valid_served_recorded": false,
+      "grouped": false
+    },
+    {
+      "scope": "X10",
+      "household": "H08",
+      "care": "clean",
+      "group": null,
+      "condition": "基础",
+      "continuity": {
+        "scope": "X10",
+        "max_gap": 16,
+        "last_countable_day": "2026-09-24",
+        "need_by": "2026-10-10",
+        "historical_gaps": [
+          1,
+          6,
+          1,
+          7,
+          6,
+          1,
+          6,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "historical_breaches": [],
+        "substitute_covered_gaps": [],
+        "substitute_over_sub_days": [],
+        "unverified_not_counted": [
+          "2026-07-16",
+          "2026-07-31"
+        ],
+        "countable_visits": 16
+      },
+      "earliest_gap_day": "2026-10-11",
+      "candidate_paths": [
+        {
+          "provider": "E",
+          "consent": {
+            "status": "approved",
+            "from": "2026-10-01",
+            "to": "2026-12-01",
+            "recorded": "2026-09-26"
+          },
+          "earliest_regular_slot": "2026-10-03",
+          "meets_need_by": true,
+          "comparable_trial_n": 4,
+          "trial_gap_max": 7,
+          "noncomparable_or_unverified": [
+            "Q54"
+          ],
+          "bridge_slots": [],
+          "regular_slots": [
+            "T08",
+            "T11"
+          ],
+          "timely_slots": [
+            "T08",
+            "T11"
+          ],
+          "slots_voided_by_missed": []
+        }
+      ],
+      "extension_backstop": null,
+      "backstop_covers_need_by": false,
+      "handover_proofs": [],
+      "missed_events": [],
+      "valid_served_recorded": false,
+      "grouped": false
+    }
+  ],
+  "slot_conflicts": [
+    {
+      "team": "Q",
+      "day": "2026-10-03",
+      "slots": [
+        "T01",
+        "T02"
+      ],
+      "cares": [
+        "bath",
+        "stairs"
+      ],
+      "served_scopes": [
+        "X01",
+        "X02"
+      ]
+    },
+    {
+      "team": "W",
+      "day": "2026-10-03",
+      "slots": [
+        "T08",
+        "T09"
+      ],
+      "cares": [
+        "clean",
+        "wipe"
+      ],
+      "served_scopes": [
+        "X06|X10",
+        "X01|X03|X07"
+      ]
+    }
+  ],
+  "extension_ledger": {
+    "L1": {
+      "offer": {
+        "offer": "L1",
+        "provider": "A",
+        "scope": "X01|X03|X07",
+        "from": "2026-10-01",
+        "to": "2026-10-09",
+        "shared_group": "A-bath",
+        "max_uses": "2",
+        "confirm_until": "2026-09-30"
+      },
+      "active_reserves": [
+        "X01",
+        "X03"
+      ]
+    },
+    "L3": {
+      "offer": {
+        "offer": "L3",
+        "provider": "A",
+        "scope": "X06|X10",
+        "from": "2026-10-01",
+        "to": "2026-10-07",
+        "shared_group": "A-clean",
+        "max_uses": "1",
+        "confirm_until": "2026-09-29"
+      },
+      "active_reserves": []
+    },
+    "L4": {
+      "offer": {
+        "offer": "L4",
+        "provider": "B",
+        "scope": "X02|X05|X08",
+        "from": "2026-10-04",
+        "to": "2026-10-15",
+        "shared_group": "B-stairs",
+        "max_uses": "2",
+        "confirm_until": "2026-10-03"
+      },
+      "active_reserves": [
+        "X02",
+        "X08"
+      ]
+    }
+  },
+  "trial_groups": [
+    {
+      "group": "P1",
+      "window": "2026-10-04..2026-10-10",
+      "scopes": [
+        "X01",
+        "X02"
+      ],
+      "valid_served": [
+        "X01"
+      ],
+      "complete": false,
+      "note": "仅部分项目有有效签收，不能释放同组其余服务"
+    },
+    {
+      "group": "P2",
+      "window": "2026-10-10..2026-10-17",
+      "scopes": [
+        "X04",
+        "X05"
+      ],
+      "valid_served": [],
+      "complete": false,
+      "note": "仅部分项目有有效签收，不能释放同组其余服务"
+    }
+  ],
+  "batch": {
+    "as_of": "2026-10-04",
+    "viable_paths": {
+      "X01": [
+        {
+          "provider": "C",
+          "slots": [
+            "T01",
+            "T04"
+          ]
+        }
+      ],
+      "X02": [
+        {
+          "provider": "C",
+          "slots": [
+            "T02"
+          ]
+        }
+      ],
+      "X03": [
+        {
+          "provider": "D",
+          "slots": [
+            "T05"
+          ]
+        }
+      ],
+      "X04": [],
+      "X05": [],
+      "X06": [
+        {
+          "provider": "E",
+          "slots": [
+            "T08",
+            "T11"
+          ]
+        }
+      ],
+      "X07": [],
+      "X08": [],
+      "X09": [],
+      "X10": [
+        {
+          "provider": "E",
+          "slots": [
+            "T08",
+            "T11"
+          ]
+        }
+      ]
+    },
+    "team_conflicts_in_live_plan": [
+      {
+        "team": "Q",
+        "day": "2026-10-03",
+        "slots": [
+          "T01",
+          "T02"
+        ],
+        "scopes": [
+          "X01",
+          "X02"
+        ],
+        "type": "时段重叠，班组人手不可重复使用"
+      },
+      {
+        "team": "W",
+        "day": "2026-10-03",
+        "slots": [
+          "T08",
+          "T08"
+        ],
+        "scopes": [
+          "X06",
+          "X10"
+        ],
+        "type": "同一窗口被两户共用，只能排给一户"
+      },
+      {
+        "team": "W",
+        "day": "2026-10-05",
+        "slots": [
+          "T11",
+          "T11"
+        ],
+        "scopes": [
+          "X06",
+          "X10"
+        ],
+        "type": "同一窗口被两户共用，只能排给一户"
+      }
+    ],
+    "group_assessment": [
+      {
+        "group": "P1",
+        "scopes": [
+          "X01",
+          "X02"
+        ],
+        "each_scope_has_viable_path": true,
+        "all_scopes_valid_served": false,
+        "batch_switch_allowed": false,
+        "reason": "单项可行/单项签收不构成整组承诺，旧保障不得释放"
+      },
+      {
+        "group": "P2",
+        "scopes": [
+          "X04",
+          "X05"
+        ],
+        "each_scope_has_viable_path": false,
+        "all_scopes_valid_served": false,
+        "batch_switch_allowed": false,
+        "reason": "单项可行/单项签收不构成整组承诺，旧保障不得释放"
+      }
+    ],
+    "categories": {
+      "switch_ready": [
+        "X03",
+        "X06",
+        "X10"
+      ],
+      "conditional_hold": [
+        "X01",
+        "X02"
+      ],
+      "backstop_first": [
+        "X08"
+      ],
+      "stranded_contact_family": [
+        "X04",
+        "X05",
+        "X07",
+        "X09"
+      ]
+    },
+    "extension_advice": [
+      {
+        "offer": "L1",
+        "provider": "A",
+        "eligible_scopes": [
+          "X01",
+          "X03",
+          "X07"
+        ],
+        "need_by_order": [
+          [
+            "X03",
+            "2026-10-03"
+          ],
+          [
+            "X07",
+            "2026-10-07"
+          ],
+          [
+            "X01",
+            "2026-10-12"
+          ]
+        ],
+        "max_uses": 2,
+        "active_reserves": [
+          "X01",
+          "X03"
+        ],
+        "confirm_until": "2026-09-30",
+        "capacity_note": "确认截止日后不得新增保留；释放的额度只能在截止日前重新指配"
+      },
+      {
+        "offer": "L2",
+        "provider": "A",
+        "eligible_scopes": [
+          "X04"
+        ],
+        "need_by_order": [
+          [
+            "X04",
+            "2026-10-09"
+          ]
+        ],
+        "max_uses": 1,
+        "active_reserves": [],
+        "confirm_until": "2026-09-30",
+        "capacity_note": "确认截止日后不得新增保留；释放的额度只能在截止日前重新指配"
+      },
+      {
+        "offer": "L3",
+        "provider": "A",
+        "eligible_scopes": [
+          "X06",
+          "X10"
+        ],
+        "need_by_order": [
+          [
+            "X10",
+            "2026-10-10"
+          ],
+          [
+            "X06",
+            "2026-10-17"
+          ]
+        ],
+        "max_uses": 1,
+        "active_reserves": [],
+        "confirm_until": "2026-09-29",
+        "capacity_note": "确认截止日后不得新增保留；释放的额度只能在截止日前重新指配"
+      },
+      {
+        "offer": "L4",
+        "provider": "B",
+        "eligible_scopes": [
+          "X02",
+          "X05",
+          "X08"
+        ],
+        "need_by_order": [
+          [
+            "X05",
+            "2026-10-05"
+          ],
+          [
+            "X08",
+            "2026-10-05"
+          ],
+          [
+            "X02",
+            "2026-10-07"
+          ]
+        ],
+        "max_uses": 2,
+        "active_reserves": [
+          "X02",
+          "X08"
+        ],
+        "confirm_until": "2026-10-03",
+        "capacity_note": "确认截止日后不得新增保留；释放的额度只能在截止日前重新指配"
+      }
+    ]
+  }
+}
